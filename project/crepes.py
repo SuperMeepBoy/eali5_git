@@ -5,9 +5,14 @@ class Crepe():
         self.cuite = False
 
     def ajouter_ingredient(self, ingredient):
-        self.ingredients.append(ingredient)
+        if self.cuite:
+            self.ingredients.append(ingredient)
+
+    def cuire(self):
+        self.cuite = True
 
 
 def ajout_crepes_nutella():
-    # A compléter quand on fera des crêpes
-    pass
+    crepe = Crepe()
+    crepe.cuire()
+    crepe.ajouter_ingredient("nutella")
