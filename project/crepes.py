@@ -6,3 +6,8 @@ class Crepe():
 
     def ajouter_ingredient(self, ingredient):
         self.ingredients.append(ingredient)
+
+
+def ajouter_crepe_confiture():
+    crepe = Crepe()
+    crepe.ajouter_ingredient("confiture")
