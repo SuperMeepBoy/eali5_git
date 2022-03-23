@@ -3,3 +3,6 @@ instructions:
 
 reset:
 	git reset --hard origin/`git branch --show-current`
+
+confirm:
+	@echo "Bravo ! Tu as réussi un chery-pick."
