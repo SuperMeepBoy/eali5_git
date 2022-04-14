@@ -1,3 +1,5 @@
-Soja
-Avocat
-Tomate
+Boeuf
+Fromage
+Lait
+Oeuf
+Miel
