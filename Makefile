@@ -1,5 +1,5 @@
 instructions:
-	@echo "You're on the main branch, please move to an example branch."
+	@echo "Revert the last commit using the 'git revert' command."
 
 reset:
 	git reset --hard origin/`git branch --show-current`
