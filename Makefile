@@ -1,5 +1,5 @@
 instructions:
-	@echo "You're on the main branch, please move to an example branch."
+	@echo "Reviens au commit intitulé 'commit initial'"
 
 reset:
 	git reset --hard origin/`git branch --show-current`
